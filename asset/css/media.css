@@ -1,0 +1,38 @@
+
+@media(max-width:992px){
+    .header{
+        height: 100vh;
+        width: 100%;
+    }
+    .carousel-indicators{
+        height: 100%;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+    .carousel-item {
+        height: 100%;  
+    }
+    .carousel-item img{
+        height: 100%;
+        width: 100%;
+object-fit: cover;  
+    }
+    
+    .navbar-brand{
+        display: flex;
+    
+        justify-content: center !important;    
+    }
+    .navbar-toggler{
+        display: flex;
+        border: none !important; 
+justify-content: flex-start !important; 
+    }
+    
+    .content-para h2{
+        font-size: 20px;
+        background-color: blue;
+    }
+    
+}

@@ -1,0 +1,126 @@
+.main-color{
+    color: var(--main-color);
+}
+/* start topbar */
+.text i,a{
+    font-size: 14px;
+    color: #868686;
+}
+.text a:hover{
+    color: #313232;
+}
+.border-before:before {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,.15);
+    width: 1px;
+    height: 20px;
+    top:20px;
+    left: 120px;
+   
+}
+.border-before1:before {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,.15);
+    width: 1px;
+    height: 20px;
+    top:11px;
+    left: 82.5%;
+   
+}
+.border-before2:before {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,.15);
+    width: 1px;
+    height: 20px;
+    top:11px;
+    left: 89.5%;
+   
+}
+/* end topbar */
+/* start contact */
+.contact{
+    background-image: url('../img/bg-breadcrumb.jpg');
+    background-repeat: no-repeat;
+    height: 35vh;
+    background-position:53% ;
+}
+.contact,.contact1  h1{
+font-family:"Libre Baskerville", serif;
+font-size:55px;
+font-weight: 400;
+line-height: 66px;
+}
+
+/* end contact */
+/* start contact detailes */
+.contact-content h2:first-child{
+font-family: "Libre Baskerville", serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 32px;
+}
+.contact-content p,.c-h2,h2:nth-child(2),.font-Libre-18px{
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.8px;
+    color: rgb(49, 50, 50);
+}
+.contact-content p,.questions p,.content-about .p2,.font-Poppins-14px{
+font-family:'Poppins', sans-serif;
+font-size: 14px;
+color: rgb(130, 135, 135);
+}
+/* end contact detailes */
+/* start questions */
+
+.questions{
+    background-image: url('../img/7-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.questions h2{
+    font-size: 32px;
+    line-height:32px;
+}
+label,.font-Poppinss-14px{
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 23.8px;
+ color: rgb(49, 50, 50);
+}
+ .questions input[type=text] ,input[type=email]{
+        height: 50px;
+        font-size: 13px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        width:100%;
+        padding: 10px 20px;
+        color: #313232;
+        font-weight: 400;
+        border: 1px solid #313232;
+        background: #fff;
+    }
+    .mx-6 {
+        margin-right: 6.5rem!important;
+        margin-left: 6.5rem!important;
+    }
+    .mx-b {
+        margin-right: 6.5rem!important;
+        margin-left: 6.5rem!important;
+    }
+    .Submit-button{
+    background-color: #313232;
+    letter-spacing: 2px;
+    font-family:  'Poppins', sans-serif;
+    font-size: 14px;
+    color:white;
+    }
+    .Submit-button:hover{
+        background-color:var(--main-color);
+        }
+/* end questions */

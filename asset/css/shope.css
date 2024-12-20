@@ -1,0 +1,89 @@
+/* start contact */
+.contact1{
+    background-image: url('../img/bg-breadcrumb.jpg');
+    background-repeat: no-repeat;
+    height: 67vh;
+    background-position:48% ;
+}
+.contact1 h1{
+    color: rgb(49, 50, 50);
+}
+.nav-item {
+    width: 100%;
+}
+.content-title .link1:hover::after{
+    width: 40%; 
+}
+.c-img img:hover{
+    border: 1px solid var(main-color);
+}
+
+
+/* start category  */
+.item-category{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font-Poppins-14px:hover{
+    color:rgb(49, 50, 50);
+}
+
+.count,.color{
+    border-radius: 50% 50%;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    transition: .5s;
+    background-color: #f1f1f1;
+}
+.brand-sq ,.productt-image{
+    border: 1px solid #f1f1f1;
+}
+.brand-sq:hover,.productt-image:hover{
+    border: 1px solid rgb(49, 50, 50);
+}
+.item-product{
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.item-img{
+    flex: 0 0 80px;
+    border: 1px solid #dadada;
+}
+.starsss i,.st{
+     color: #fcad02 !important;
+     letter-spacing: 1px;
+     font-size: 12px;
+}
+.st{
+    color:#e1e1e1 ;
+}
+.item-titlee a,.pricee-img{
+font-family: "Libre Baskerville", serif;
+font-size: 15px;
+}
+.price,.sale-price{
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 15px;
+    color: rgba(130, 135, 135, 0.8);
+}
+.hot,.sale{
+    top: 3%;
+    left: 82%;
+    width: 47px;
+    height: 24px;
+   background-color: #ffa500;
+    text-align: center !important;
+    color: #fff;
+    font-size: 14px;
+}
+.sale{
+    top: 3%;
+    left: 4%;
+   background-color: red; 
+}
